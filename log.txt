@@ -1,0 +1,2 @@
+ignore this
+add a directory: /directory1
