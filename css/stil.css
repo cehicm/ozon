@@ -1,0 +1,519 @@
+*{
+padding: 0;
+  margin: 0 auto;
+}
+
+@font-face {
+    font-family: "open";
+    src: url('../fonts/OpenSansCondensed-Light.ttf');
+}
+
+body {font-family: "open", sans-serif;
+  text-align:center;
+}
+
+
+.wrapper{margin:0 auto;
+ max-width:1100px;}
+
+#logo {float: left;
+margin-left: 38px;
+margin-top: 1px;
+width: 54px;}
+
+header{height:56px;
+width:100%;
+position:fixed;
+top:0;
+background-color:#3675db;
+box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.62);
+}
+
+header nav ul{list-style:none;float:right;}
+
+header nav ul li{display:inline-block;
+ margin-right: 25px;
+  margin-top:17px;
+}
+
+header nav ul li a{
+  text-decoration:none;
+  color:#fff;
+  text-transform:uppercase;
+font-size: 24px;}
+
+header nav ul li a:hover{border-bottom:2px solid #fff;}
+
+
+#cover {
+background: url(../images/covera-1.jpg) center no-repeat;
+height: 700px;
+background-size: contain;
+max-width:1920px;
+}
+
+
+#baner-slika{width: 100%;
+height: auto;}
+
+
+#prvi{ padding-top:100px; background-color:#fff; border-bottom:1px solid #e5e5e5;
+}
+
+#prvi h1{
+text-transform:uppercase;
+ font-size:30px;
+ letter-spacing:6.4px;
+
+}
+
+.crtica {width:55px; height:1px; background-color:#444;
+margin:0 auto;
+margin-top:20px;
+margin-bottom:35px;
+}
+
+
+#prvi p{
+line-height:30px;
+ display:inline-block;
+margin-bottom:50px;
+ color:#777;
+font-size: 20px;
+}
+
+#prvi a{
+display:inline-block;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:bold;
+color:#000;
+padding:18px 30px;
+background-color:rgba(0,0,0,0);
+border:2px solid #444;
+letter-spacing:3px;
+border-radius:25px;
+margin-bottom:60px;
+}
+
+#prvi a:hover{color:#af8662; border:2px solid #af8662;}
+
+#drugi {background-color:#f0f0f0;
+  padding-bottom:60px;}
+
+#drugi h1{text-transform:uppercase;
+ font-size:30px;
+ line-height:36px;
+ letter-spacing:6.4px;
+ padding-top:100px;
+
+}
+
+#drugi p{
+line-height:30px;
+ display:inline-block;
+ max-width:550px;
+ margin-bottom:50px;
+ color:#777;
+  font-size: 20px;
+}
+
+
+#slike img{width: 30.5%;
+  height: 220px;
+margin-right:2%;
+margin-bottom: 55px;
+  display: inline-block;
+ box-sizing: border-box;}
+
+
+#slike img:hover {border: 2px groove #3675db;}
+
+
+footer{background-color:#3675db;
+  height:80px;
+}
+
+footer p, footer a{
+  color:#fff;
+  padding-top:35px;
+font-size: 21px;}
+
+
+#galslike{
+margin-top: 80px;
+margin-bottom: 50px;
+}
+
+#galslike img{padding-bottom: 20px;
+width: 800px;}
+
+
+/* ============ Cenovnik ============ */
+
+#cenovnik h1{
+font-size: 30px;
+padding: 40px 20px;
+text-align: center;
+margin: 0 auto;}
+
+table, th, td {
+  border: 1px solid black;
+width: 900px;
+height: 70px;
+padding-top: 33px;
+font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+td{text-align: center;}
+#cenovnik{margin: 0 auto;
+}
+
+
+
+#taj {background-color:#f0f0f0;}
+/* ============ Kontakt ============ */
+#kontakt {
+width: 77%;
+height: 395px;
+border: 3px solid #0f0f0f;
+padding: 20px 10px 20px 10px;
+display: inline-block;
+text-align: center;
+line-height: 115px;
+background: #3885A4;
+margin-top: 100px;
+margin-bottom: 50px;
+font-size: 30px;
+}
+
+
+#kontakt a{text-decoration: none;
+color: #0f0e0e;}
+
+#kontakt a:hover{text-decoration: underline;}
+
+
+/* ============ Utisci ============ */
+
+#utisak{  margin-top: 79px;}
+
+#utisci {
+background-color: #e1e1e1;
+	border: 1px solid grey;
+
+}
+#utisci p {
+  padding: 15px 10px;
+	border-bottom: 1px dotted grey;
+  font-size: 18px;
+}
+
+#utiscil {
+  width: 48%;
+  float: left;
+}
+#utiscil h1 {padding-bottom: 20px;
+font-size: 25px;
+text-decoration: underline; }
+
+
+#utiscid {
+ width: 48%;
+float: left;
+margin-top: 33px;
+}
+#utiscid h2 {font-size:20px;
+padding-bottom:20px;}
+#utisci p span {
+  font-weight: bold;
+	padding: 10px 0px 20px 0px;
+	display: block;
+}
+
+
+#form textarea {
+  width: 96%;
+  height: 70px;
+  margin-top: 2%;
+  display: block;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+#calculator {
+width:400px;
+  margin: 40px auto;
+  padding:50px;
+  box-sizing: border-box;
+background-color: #71a3f2;
+border-radius: 5px;
+  text-align: center;
+
+}
+
+form #cen{
+text-align: left;
+
+}
+form label {
+display: block;
+margin: 15px 0;
+font-weight: bold;}
+#calculator form label{display: inline-block;}
+
+form input, form select {
+padding: 8px;
+  margin: 10px 0;
+}
+
+#result {text-decoration:underline;}
+
+
+#calculator h2 {font-weight:bold;
+padding-bottom: 25px;}
+
+
+.natpis{display:none;}
+
+#calculate {padding: 6px;
+  margin-bottom: 5px;
+display: inherit;}
+
+
+
+/* ============ responsive ============ */
+@media screen and (max-width:1070px)
+{
+#cover {margin-top: -31px;
+  margin-bottom: -113px;}
+}
+
+
+@media screen and (max-width:900px)
+
+{  #cover{margin-top: -50px;
+margin-bottom: -138px;}
+
+  #cenovnik{margin: 0px 0px;}
+}
+
+@media screen and (max-width:868px)
+{table, th, td{width: 800px;}
+#cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+}
+
+
+
+
+@media screen and (max-width:800px)
+
+{
+#cover{margin-top: -105px;
+  margin-bottom: -168px;}
+  #cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+}
+
+
+
+@media screen and (max-width:720px)
+{
+#slike img {
+width:45%; }
+  #utiscil{width: 100%;}
+#utiscid{margin-left: 200px;}
+  table, th, td{ width: 480px;}
+
+  #kontakt{line-height: 65px;
+  height: 100%;}
+  #cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+  table, th, td{width: 680px;
+}
+}
+@media screen and (max-width:692px)
+{#cover{margin-top: -125px;
+  margin-bottom: -190px;}
+
+table, th, td{width: 580px;}
+  #cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+}
+
+
+
+@media screen and (max-width:620px)
+{#cover{margin-top: -139px;
+margin-bottom: -213px;}
+  #cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+}
+
+
+@media screen and (max-width:592px)
+{#cover{margin-top: -152px;
+margin-bottom: -200px;}
+ table, th, td{ width: 580px;}
+#cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+
+}
+
+@media screen and (max-width:570px)
+{table, th, td{width: 520px;}
+
+}
+
+
+@media screen and (max-width:520px)
+{table, th, td{width: 490px;}
+
+  #cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+
+#prvi h1, #drugi h1{
+  font-size: 22px;
+  line-height: 20px;}
+#prvi p, #drugi p
+{font-size: 19px;
+line-height: 1.2;}
+
+#slike img{width:95%;
+margin-bottom: 20px;}
+header nav ul li{margin-right:20px;}
+#logo{margin-left:10px;}
+
+#prvi a{font-size:14px; }
+#galslike img{width: 90%;}
+  #cover{margin-top:  -175px;
+margin-bottom: -250px;}
+}
+
+
+
+@media (max-width:450px)
+{table, th, td {width: 420px;}
+  #utiscid {margin-left: 110px;}
+
+}
+
+
+
+@media (max-width:400px)
+{
+table, th, td {width: 302px;}
+
+#cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+#cenovnik h1 {margin-left: 0px;}
+
+
+header nav ul li {margin-right:4px;}
+  header nav ul li a{font-size: 21px; }
+
+#slike img {margin-bottom: 15px;}
+#utiscid{margin-left: 80px;
+}
+
+  #cover{margin-top: -200px;
+margin-bottom: -261px;}
+
+
+}
+
+  @media screen and (max-width:320px)
+{
+header nav ul li a { font-size: 17px;}
+
+header nav ul { margin-right: 10px;}
+
+  #kontakt { height: 100%;
+font-size: 20px;
+line-height: 67px;}
+
+  #galslike img {width: 90%;
+  height: 20%;}
+
+  #baner-slika { height: 30%;}
+
+  #cenovnik {margin-left: 0px;
+  margin-top: 10px;}
+
+  #cenovnik h1 {margin-left: 0px;}
+
+table, th, td {
+width: 302px;
+height: 80%;
+padding-top: 22px;
+padding-bottom: 25px;}
+
+  #utiscil { width: 100%;}
+
+  #utiscid { margin-left: 81px;}
+
+  #cover {margin-top: -217px;
+margin-bottom: -281px;}
+
+  #calculator{margin-left: -25px;}
+  #calculator form label{display: inline-block;}
+
+#calculator h2 {
+
+  padding-bottom: 25px;}
+}
+
+
+@media screen and (max-width:280px)
+ {
+    #utiscid{margin-left: 76px;}
+   header nav ul li a{
+     font-size: 15px;
+   }
+   #logo{width: 20%;}
+
+   table, th, td {width:250px;
+}
+
+ #calculator form{
+
+margin-left: -55px;}
+
+   #calculate{display: inherit;}
+   #izn{margin-left: -57px;
+padding-top: 15px;}
+   #calculator h2{margin-left: -63px;}
+
+ }
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Ozon Kruševac - Cenovnik </title>
+      <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/stil.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+
+
+    <header>
+
+
+
+<div class="wrapper">
+
+<nav>
+  <a href="index.html"><img id="logo" src="images/aa.jpg" alt="logo"> </a>
+<ul>
+
+<li><a href="galerija.html">galerija</a></li>
+
+<li><a href="utisci.html">utisci</a></li>
+
+  <li><a href="cenovnik.html">cenovnik</a></li>
+
+  <li><a href="kontakt.html">kontakt</a></li>
+</ul>
+</nav>
+</div>
+</header>
+    <div id="baner">
+     <img id="baner-slika" src="images/dcarpet.jpg" alt="cc">
+
+    </div>
+<section id="cenovnik">
+<div class="wrapper">
+
+
+<h1>Cenovnik Usluga</h1>
+
+<table>
+  <tr id="taj">
+    <th>Usluga </th>
+    <th>Jedinica Mere</th>
+    <th>Cena</th>
+  </tr>
+  <tr>
+    <td>Pranje tepiha</td>
+    <td> m<sup>2</sup></td>
+    <td>120 din</td>
+  </tr>
+  <tr>
+    <td>Pranje Namestaja</td>
+    <td>Sedno mesto</td>
+    <td>500 din</td>
+  </tr>
+  <tr>
+    <td>Pranje Automobila</td>
+    <td> Kom. </td>
+    <td>2000 din</td>
+  </tr>
+
+</table>
+
+   </div>
+</section>
+
+
+
+      <div id="calculator">
+<div id="wrapper">
+<h2>
+  Koliko će Vas izneti račun?
+  </h2>
+<form>
+  <label>kom/m<sup>2</sup> :</label>
+ <input type="text" id="firstNumber" /><br>
+
+<label>
+Koju ste uslugu koristili?<br>
+  <select id="secondNumber">
+
+    <option disabled selected value="0"> --izaberite uslugu -- </option>
+
+ <option value="150"> Pranje tepiha </option>
+ <option value="200"> Pranje nameštaja </option>
+ <option value="2000"> Pranje automobila </option>
+
+
+  </select>
+ </label>
+
+
+ <button type="button" id="calculate">
+   Izračunaj!
+      </button>
+
+</form>
+<p id="izn"> Vaš račun iznosi: <br>
+<span id = "result"></span>  dinara
+</p>
+<script src="javascript/javascript.js"></script>
+    </div>
+
+ </div>
+
+
+  <footer>
+<div class="wrapper">
+<p>Posetite  <a href="kontakt.html">Nas!</a></p>
+</div>
+</footer>
+  </body>
+</html>
